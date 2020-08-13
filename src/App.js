@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { XssComponent } from "./Component/XssComponent";
 function App() {
   const [word, setWord] = useState('alert("hello")');
   const [applyWord, setApplyWord] = useState("");
   const changeHandler = ({ target }) => {
-    // console.log(target.value);
     setWord(target.value);
   };
 
