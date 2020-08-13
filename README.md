@@ -8,9 +8,10 @@ Run on development mode
 Open http://localhost:3000 by browser
 
 Run on production mode
+1. npm install
 1. npm run build
-2. yarn global add serve
-3. serve -s build
+1. yarn global add serve
+1. serve -s build
 Open http://localhost:5000 by browser
 
 
