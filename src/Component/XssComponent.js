@@ -11,7 +11,7 @@ export const XssComponent = ({ str }) => {
       <br />
       按鈕 (將字串植入 Click 行為):<button onClick={str}>{str}</button>
       <br />
-      按鈕 (click 誘發 alert 行為，將資訊放在 alert 中):
+      按鈕 (click 誘發 alert 行為，將資訊放在 alert 中，成為文字內容):
       <button
         onClick={() => {
           clickHandler(str);
